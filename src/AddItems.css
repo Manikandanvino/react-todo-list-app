@@ -1,0 +1,39 @@
+.addForm{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: sticky;
+  top: 63px;
+  margin-top: 10px;
+  
+}
+.addForm input[type='text'] {
+    flex-grow: 1;
+    max-width: calc(100% - 50px);
+    min-height: 48px;
+    font-size: 1rem;
+    padding: 0.25rem;
+    border-radius: 10px;
+    margin-right: 0.25rem;
+    border: 2px solid rgb(184, 117, 69);
+    background-color: black;
+    color: white;
+}
+button {
+    height: 48px;
+    min-width: 48px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color:rgb(184, 117, 69);
+    color: black;
+    cursor: pointer;
+    border: 2px solid rgb(184, 117, 69);
+  }
+  
+  button:focus, 
+  button:hover {
+    color: rgb(184, 117, 69);
+    background-color: black;
+    outline: none;
+  }

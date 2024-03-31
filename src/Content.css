@@ -1,0 +1,56 @@
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+  }
+  ul {
+    width: 100%;
+    list-style: none;
+    padding: 0 0.25rem 0.25rem;
+  }
+  .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin: 1rem 4rem;
+    background-color: rgb(3, 83, 83);
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+  }
+  .item input[type="checkbox"] {
+    text-align: center;
+    width: 2rem;
+    width: 25px;
+    min-width: 25px;
+    height: 2rem;
+    height: 25px;
+    min-height: 25px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  .item svg {
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    font-size: 1rem;
+    color:black ;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .item svg:focus, 
+.item svg:hover {
+  color: rgb(0,191,255);
+  outline: none;
+}
+.item > label {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    flex-grow: 1;
+  }
