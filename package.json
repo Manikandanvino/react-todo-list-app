@@ -1,5 +1,4 @@
-{ 
-  "homepage": "http://Manikandanvino.github.io/todo-list-app",
+{ "homepage": "http://Manikandanvino.github.io/react-todo-list-app",
   "name": "to-do-list-app",
   "version": "0.1.0",
   "private": true,
