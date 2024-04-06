@@ -7,7 +7,7 @@ import { useState } from 'react';
 import SearchItem from './SearchItem';
 
 function App() {
-  const [items ,setItems] = useState(JSON.parse(localStorage.getItem('to-do-list-app')))
+  const [items ,setItems] = useState(JSON.parse(localStorage.getItem('to-do-list-app')) || [] );
   const [newItem ,setNewItem] = useState('')
   const [search,setSearch] = useState('')
 
